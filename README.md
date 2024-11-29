@@ -16,6 +16,9 @@ As part of this initiative, the Goodcabs management team aims to assess the comp
 
 ![Geographical Insights](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Geographical%20Insights.png)
 
+![Passenger Insights](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Passenger%20Insights.png)
+
+
 
 
 
