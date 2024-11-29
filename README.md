@@ -8,15 +8,27 @@ Goodcabs, a cab service company established two years ago, has gained a strong f
 
 As part of this initiative, the Goodcabs management team aims to assess the company’s performance across key metrics, including trip volume, passenger satisfaction, repeat passenger rate, trip distribution, and the balance between new and repeat passengers. 
 
+## Data Model
+
 ![Data Model](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Data%20Model.png)
+
+## Home Page
 
 ![Home Page](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Home.png)
 
+## Overview
+
 ![Overview](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Overview.png)
+
+## Geographical Insights
 
 ![Geographical Insights](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Geographical%20Insights.png)
 
+## Passenger Insights
+
 ![Passenger Insights](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Passenger%20Insights.png)
+
+## Time based Analysis
 
 ![Time-based Analysis](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Time%20based%20analysis.png)
 
