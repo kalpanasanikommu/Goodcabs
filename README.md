@@ -18,8 +18,7 @@ As part of this initiative, the Goodcabs management team aims to assess the comp
 
 ![Passenger Insights](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Passenger%20Insights.png)
 
-
-
+![Time-based Analysis](https://raw.githubusercontent.com/kalpanasanikommu/Goodcabs/main/Time%20based%20analysis.png)
 
 
 ### Key Insights
