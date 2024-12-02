@@ -5,6 +5,7 @@
 ## Goodcabs Transportation trends and Insights
 
 Live Dashboard link : [Goodcabs Insights dashboard](https://app.powerbi.com/view?r=eyJrIjoiZGJkOTQzNTMtNjFhMi00YTNmLTk5ZDYtNzk4M2M5MWFjODcxIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
 Video Presentation Link : https://youtu.be/e4GbAAq3XAg
 
 Domain:  Transportation & Mobility 
