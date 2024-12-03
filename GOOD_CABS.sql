@@ -66,6 +66,37 @@ JOIN trips_db.fact_passenger_summary P
 ON R.city_id = P.city_id
 GROUP BY city_name,trip_count;
 
+
+
+
+------------------------------------------
+-------------------------------------------
+
+SELECT
+c.city_name,
+ROUND(
+(SUM(CASE WHEN R.trip_count = 2 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count)) * 100, 2) AS "2-Trips",
+ROUND(
+(SUM(CASE WHEN R.trip_count = 3 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count))*100, 2) AS "3-Trips", 
+ROUND(
+(SUM(CASE WHEN R.trip_count = 4 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count))*100, 2) AS "4-Trips",
+ROUND(
+(SUM(CASE WHEN R.trip_count =  5 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count)) * 100, 2) AS "5-Trips",
+ROUND(
+(SUM(CASE WHEN R.trip_count = 6 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count)) * 100, 2) AS "6-Trips",
+ROUND(
+(SUM(CASE WHEN R.trip_count = 7 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count)) * 100, 2) AS "7-Trips",
+ROUND(
+(SUM(CASE WHEN R.trip_count = 8 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count)) * 100, 2) AS "8-Trips",
+ROUND(
+(SUM(CASE WHEN R.trip_count = 9 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count)) * 100, 2) AS "9-Trips",
+ROUND(
+(SUM(CASE WHEN R.trip_count = 10 THEN R.repeat_passenger_count ELSE 0 END)/SUM(R.repeat_passenger_count)) * 100, 2) AS "10-Trips"
+FROM
+dim_city c
+JOIN
+dim_repeat_trip_distribution R ON R.city_id = c.city_id
+GROUP BY c.city_name;
 ------------------------------------------------------------------------------
 /*4.IDENTIFY CITIES WITH HIGHEST AND LOWEST TOTAL NEW PASSENGERS*/
 
@@ -124,7 +155,7 @@ SELECT
     m.city_name,
     m.highest_revenue_month,
     m.revenue,
-    (m.revenue / t.total_revenue) * 100 AS percentage_contribution
+    ROUND((m.revenue / t.total_revenue) * 100,2) AS percentage_contribution
 FROM MaxRevenueMonth m
 JOIN TotalRevenue t ON m.city_name = t.city_name
 where m.rank_ = 1
