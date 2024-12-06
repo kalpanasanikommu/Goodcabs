@@ -1,6 +1,6 @@
-# Codebasics Resume Challenge Project
+# Codebasics Resume Project Challenge #13
 
-#### Challenge #13: Provide Insights to Chief of Operations in Transportation Domain
+#### Provide Insights to Chief of Operations in Transportation Domain
 
 ## Goodcabs Transportation trends and Insights
 
